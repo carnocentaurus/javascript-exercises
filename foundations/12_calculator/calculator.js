@@ -18,8 +18,8 @@ const multiply = function(arrayOfNumbers) {
   });
 };
 
-const power = function() {
-	
+const power = function(base, exponent) {
+	return base ** exponent;
 };
 
 const factorial = function() {
@@ -30,6 +30,7 @@ add(2, 6);
 subtract(-8, 7);
 sum([1, 3, 5, 7, 9]);
 multiply([2, 4, 6, 8, 10, 12, 14]);
+power(3, 10);
 
 // Do not edit below this line
 module.exports = {

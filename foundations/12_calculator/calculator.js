@@ -2,8 +2,8 @@ const add = function(addend1, addend2) {
 	return addend1 + addend2;
 };
 
-const subtract = function() {
-	
+const subtract = function(minuend, subtrahend) {
+	return minuend - subtrahend;
 };
 
 const sum = function() {
@@ -23,6 +23,7 @@ const factorial = function() {
 };
 
 add(2, 6);
+subtract(-8, 7);
 
 // Do not edit below this line
 module.exports = {
